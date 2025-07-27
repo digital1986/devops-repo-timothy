@@ -30,11 +30,17 @@ CI/CD pipelines automate:
    ```bash
    git clone https://github.com/digital1986/devops-repo.git
 
-   cd devops-repo
+
+cd devops-repo
+
 cp .env.example .env
+
 nano .env
+
 cd terraform/
+
 terraform init
+
 terraform apply
 
 kubectl apply -f kubernetes/
